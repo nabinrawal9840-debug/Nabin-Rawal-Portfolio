@@ -766,13 +766,13 @@ section {
         right: -100%;
         flex-direction: column;
         background: rgba(254, 254, 254, 0.95);
-        width: 22%;
-        height: 35vh;
+        width: 50%;
+        height: 100vh;
         text-align: center;
         transition: 0.3s ease;
         z-index: -1;
         display: flex;
-        border-radius: 12px;
+        border-radius: 15px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         row-gap: 10px;
         flex-wrap: wrap;
@@ -892,4 +892,5 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
 
