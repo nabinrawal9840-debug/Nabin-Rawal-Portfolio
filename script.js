@@ -55,12 +55,3 @@
       }
     });
   });
-
- const toggleButton = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-toggleButton.addEventListener('click', () => {
-    // This adds the 'active' class if it's missing, and removes it if it's there
-    navMenu.classList.toggle('active');
-    toggleButton.classList.toggle('active');
-});
