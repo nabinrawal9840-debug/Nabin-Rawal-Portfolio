@@ -167,6 +167,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 0.3rem;
+    margin-top:0;
 ;
 }
 
@@ -892,6 +893,7 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
