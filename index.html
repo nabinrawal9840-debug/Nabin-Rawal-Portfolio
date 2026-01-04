@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabin Rawal - Computer Engineer</title>
+    <meta property="og:url" content="https://www.nabinrawal207.com.np" />
+    <meta property="og:type" content="website" />
+
+    <!-- --------- TWITTER CARD META TAGS ---------- -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nabin Rawal - Computer Engineering Student & Developer"
+    />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Nabin Rawal - Full-Stack Developer specializing in Python, Flask, and JavaScript."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.nabinrawal207.com.np/images/Nabin_Rawal_logo.jpeg"
+    />
+
+    <!-- SEO & Performance -->
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="full-stack developer, computer engineering, web development, Nepal, Python, Flask, JavaScript, React, Node.js"
+    />
+    <link rel="canonical" href="https://www.nabinrawal207.com.np" />
+    <meta
+      name="description"
+      content="Portfolio of Nabin Rawal - Full-Stack Developer specializing in Python, Flask, and JavaScript."  
+    />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- WhatsApp CSS -->
+    <link rel="stylesheet" href="whatsapp.css">
+
+    <link
+        rel="icon"
+        href="assests/porfiles/logo.jpeg"
+        type="image/x-icon"
+    />
+    <!-- favicon -->
+     <link
+      rel="icon"
+      href="assests/favicon/profile1.jpeg"
+      type="image/x-icon"
+    />
+
+    <link
+        rel="icon"
+        href="assests/porfiles/logo.jpeg"
+        sizes="192x192"
+    />
+
+    <link
+        rel="icon"
+        href="assests/porfiles/logo.jpeg"
+        sizes="180x180"
+    />
+    
+    <link
+        rel="icon"
+        href="assests/porfiles/logo.jpeg"
+        sizes="32x32"
+    />
+    <link
+        rel="icon"
+        href="assests/porfiles/logo.jpeg"
+        sizes="64x64"
+    />
+    <link
+        rel="preload"
+        href="assests/porfiles/logo.jpeg"
+        as="image"
+    />
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nabin Rawal",
+        "url": "https://www.nabinrawal207.com.np",
+        "image": "https://www.nabinrawal207.com.np/portfolioassets/images/Nabin_Rawal_logo.jpeg",
+        "description": "Computer Engineering Student & Full-Stack Developer specializing in modern web technologies",
+        "jobTitle": "Computer Engineering Student",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "National Academy of Science and Technology"
+        },
+        "knowsAbout": [
+          "Web Development",
+          "Python Programming",
+          "JavaScript",
+          "Flask Framework",
+          "MySQL Database",
+          "Frontend Development",
+          "Backend Development"
+        ],
+        "sameAs": [
+       
+        ]
+      }
+    </script>
+</head>
+<body>
+    <!-- Neural Network Background Canvas -->
+    <canvas id="neuralNetwork"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+               <a href="#home"><img src="assests/porfiles/logo.jpeg" alt="Logo" class="logo-img"></a>
+               <a href="#about" class="nav-logo-link   ">Nabin Rawal</a>
+            </div>
+            
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="assests/cv/resume.pdf" download="resume.pdf" class="nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="Resume" class="resumenav"> Resume</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hello I am </h1>
+                <h2 class="hero-subtitle">Computer Engineer</h2>
+                <p class="hero-description"> Computer engineering scholar with a passion for full-stack development. Merging analytical thinking with creative problem-solving to build impactful digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="assests/cv/resume.pdf" target="_blank" class="btn btn-primary"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="Resume" class="resumenav">View Resume</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="assests/porfiles/profile1.jpeg" alt="Nabin Rawal" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="card about-card">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a passionate Computer Engineer with a Bachelor's degree from NAST College, affiliated with Pokhara University. My education has provided me with a strong foundation in computer science principles and practical programming skills.</p>
+                        <p>During my studies, I've worked with various programming languages and technologies including Java, C++, C, Python, and JavaScript.Similarly I have learn HTML,CSS,Java Script etc .I've also explored advanced topics like Artificial Intelligence and Machine Learning, applying them in practical projects.</p>
+                        <p>I enjoy creating efficient, scalable solutions to complex problems and am always eager to learn new technologies and methodologies.</p>
+                    </div>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor in Computer Engineering</h4>
+                            <p class="institution">NAST College, Pokhara University</p>
+                            <p class="year">2022 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="skills" class="skills-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">SKILLS</h2>
+      <p class="section-subtitle">Core technical skills</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="skill-icon">
+        <h3 class="skill-name">HTML</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" class="skill-icon">
+        <h3 class="skill-name">CSS</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="skill-icon">
+        <h3 class="skill-name">JavaScript</h3>
+      </div>
+
+       <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React js" class="skill-icon icon-dark">
+            <h3 class="skill-name">React js</h3>
+     </div>
+
+     <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" class="skill-icon icon-dark">
+            <h3 class="skill-name   ">Bootstrap</h3>
+     </div>
+
+
+      
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg" alt="Django" class="skill-icon">
+        <h3 class="skill-name">Django</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="Flask" class="skill-icon">
+        <h3 class="skill-name">Flask</h3>
+      </div>
+      <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" class="skill-icon icon-dark">
+            <h3 class="skill-name">Node.js</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg" alt="MySQL" class="skill-icon">
+        <h3 class="skill-name">MySQL</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite" class="skill-icon">
+        <h3 class="skill-name">SQLite</h3>
+
+      </div>
+      <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB" class="skill-icon icon-dark">
+            <h3 class="skill-name">MongoDB</h3>
+       </div>
+
+       <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git" class="skill-icon">
+        <h3 class="skill-name">Git & GitHub</h3>
+      </div>
+       
+       <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" class="skill-icon">
+            <h3 class="skill-name">Python</h3>
+      </div>
+
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Java-Logo" class="skill-icon icon-dark">
+            <h3 class="skill-name">Java</h3>                  
+        </div>
+
+
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" class="skill-icon">
+        <h3 class="skill-name">C</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++" class="skill-icon">
+        <h3 class="skill-name">C++</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" class="skill-icon icon-dark">
+        <h3 class="skill-name">PHP</h3>
+      </div>
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB" class="skill-icon icon-dark">
+        <h3 class="skill-name">MATLAB</h3>
+      </div>
+
+      <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/TensorFlow_logo.svg" alt="TensorFlow" class="skill-icon icon-dark">
+            <h3 class="skill-name">TensorFlow</h3>
+      </div>
+      <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" class="skill-icon icon-dark">
+            <h3 class="skill-name">Scikit-learn</h3>    
+      </div>  
+
+      <div class="skill-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy_logo_2020" class="skill-icon icon-dark">
+        <h3 class="skill-name">NumPy</h3>
+      </div>
+
+      <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Pandas" class="skill-icon icon-dark">
+            <h3 class="skill-name">Pandas</h3>  
+        </div>
+
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Logo-seaborn.png" alt="Seaborn" class="skill-icon icon-dark">
+            <h3 class="skill-name">Seaborn</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Microsoft_Office_Excel_%282019%E2%80%932025%29.svg" alt="Excell" class="skill-icon icon-dark">
+            <h3 class="skill-name">Excel</h3>
+        </div>     
+
+       
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assests/projects/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Room Renting Website</h3>
+                        <p class="project-description">A full-stack website  built with flask and html,css, featuring user authentication, and inventory management.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">java Scripts</span>
+                            <span class="tech-tag">Sqllite</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assests/projects/project2.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Note sharing platform </h3>
+                        <p class="project-description"> Note sharing webste is a platform that allows user to view , download notes of pokhara university from semester I to semester VIII of all faculty</p> 
+                        <div class="project-tech">
+                            <span class="tech-tag">Python Django</span>
+                            <span class="tech-tag">HTML,CSS</span>
+                            <span class="tech-tag">sqllite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://notespokhrauniversity.nabinrawal207.com.np/" class="project-link">Live</a>
+                            <a href="https://github.com/nabinrawal9840-debug/notes" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assests/projects/project3.webp" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Ai powerd website </h3>
+                        <p class="project-description">Learning AI and ML for my college project</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">sckit-learn</span>
+                            <span class="tech-tag">pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Still in Progress</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="card contact-info-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>yagyarawal771@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>(+977)9840295924</p>
+                            </div>
+                        </div>
+                        <!-- WhatsApp Contact Item -->
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="contact-text">
+                                <h3>WhatsApp</h3>
+                                <p>(+977)9840295924</p>
+                                <a href="https://wa.me/9779840295924?text=Hi%20Nabin,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." 
+                                   class="whatsapp-btn" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> Message
+                                </a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Dhangadi, Nepal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card contact-form-card">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="send-message">Send Message</button>
+                        <br>
+                        
+                        <!-- WhatsApp Form Button -->
+                        <button type="button" id="whatsappFormBtn" class="send-message">
+                            <i class="fab fa-whatsapp"></i> send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/9779840295924?text=Hi%20Nabin,%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Nabin Rawal. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/dashboard"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nabin-rawal-5a58b5390"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/1Bz4VYhF4V/"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <!-- WhatsApp Social Link -->
+                    <a href="https://wa.me/9779840295924" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- WhatsApp JavaScript -->
+    <script src="whatsapp.js"></script>
+    <script>
+        // Email functionality
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:yagyarawal771@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+        });
+    </script>
+    
+</body>
+</html>
