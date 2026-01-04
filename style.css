@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #3b3b3b;
-    background:white;
+    background: #ffffff;
     overflow-x: hidden;
  
 }
@@ -766,7 +766,7 @@ section {
         right: -100%;
         flex-direction: column;
         background: rgba(254, 254, 254, 0.95);
-        width: 30%;
+        width: 22%;
         height: 35vh;
         text-align: center;
         transition: 0.3s ease;
@@ -774,7 +774,15 @@ section {
         display: flex;
         border-radius: 12px;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        row-gap: 12px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+        
+    }
+    .nav-menu:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(15, 15, 15, 0.9);
     }
 
     .nav-menu.active {
@@ -785,8 +793,23 @@ section {
         color: #f32eb7 !important; /* Force color to white on black bg */
         font-size: 0.5rem;
         display: block;
+        margin-top: 15px;
+        
+        box-shadow: 0 2px 10px rgba(21, 18, 18, 0.1);
+        border-radius: 3px;
+        padding:3px;
+        z-index: -1;
+        transition:transform 0.3s ease box-shadow 0.3 ease;
+        
+
+        
        
     }
+    .nav-menu .nav-link:hover{
+        transform:translateY(-8px);
+        box-shadow:0,2px,5px rgba(21, 17, 17, 0.23)
+    }
+
 
     .nav-toggle {
         display: flex; /* This shows the hamburger button */
@@ -869,6 +892,4 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
-
-
 
