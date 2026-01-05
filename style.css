@@ -852,7 +852,7 @@ section {
     content: '';
     position: absolute;
     bottom: 0px;
-    left: 19%;
+    left: 23%;
     transform: translateX(-50%);
     width: 150px;
     height: 2px;
@@ -1005,5 +1005,6 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
